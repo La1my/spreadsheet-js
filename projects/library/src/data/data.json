@@ -1,0 +1,5 @@
+{
+  "name": "ngFor",
+  "description": "With ngFor u can make something",
+  "code": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <title>SpreadsheetJs</title>\n    <base href=\"/\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\" />\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" />\n    <link\n      href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap\"\n      rel=\"stylesheet\"\n    />\n    <link\n      href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\n      rel=\"stylesheet\"\n    />\n  </head>\n  <body class=\"mat-typography\">\n    <app-root></app-root>\n  </body>\n</html>\n"
+}
