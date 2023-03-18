@@ -10,16 +10,28 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
+    "typeRoots": ["node_modules/@types"],
+    "paths": {
+      "@library": [
+        "projects/library/src"
+      ],
+      "@library/*": [
+        "projects/library/src/*"
+      ]
+    },
     "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2017",
+    "target": "ES2022",
     "module": "es2020",
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
